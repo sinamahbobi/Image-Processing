@@ -1,0 +1,22 @@
+Sina Mahbobi
+4/10/19
+EE355 Lab 6
+9773428651
+
+This lab is an image processing lab, where the program takes all the RGB photos in a certain path. It then prompts the user of the program to perform a certain operation, does that operation on every file in that path, and then outputs the new photos in another folder.
+
+There are 6 operations this lab does:
+ 
+ 1: Flip 90 Degrees Clockwise
+ 2: Flip Image 180 Degrees
+ 3: Mirror Image
+ 4: Grey Scale Image
+ 5: Color Inversion
+ 6: Zoom In
+
+ It will loads all the images with a .bmp extension in the original-photos folder, prompt the user for which operation, and then save all the modified versions of those photos in the modified-photos folder.
+
+
+Typing in the numbers in front of each operation is what prompts that operation. Otherwise, if the command is not recognized, the program exits.
+
+menu.cpp, bmplib.cpp, and imagefunctions.cpp need to be compiled for this program to run. 
